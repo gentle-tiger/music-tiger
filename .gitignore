@@ -1,0 +1,30 @@
+# 📦 Java/Spring Boot
+/build/
+/.gradle/
+/out/
+*.class
+*.log
+*.jar
+*.war
+*.iml
+.idea/
+*.iws
+
+# 📄 OS 무시 파일
+.DS_Store
+Thumbs.db
+
+# 📚 아두이노 관련 (client용)
+*.hex
+*.elf
+*.bin
+__MACOSX/
+*.pyc
+
+# 🔍 VSCode & 기타 에디터
+.vscode/
+*.swp
+*.bak
+
+# ⚙️ 환경 파일 (필요 시)
+.env
