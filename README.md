@@ -25,5 +25,24 @@
 
 ---
 
-## 🧭 디렉토리 구조
+## 📁 프로젝트 디렉토리 구조
+
+```plaintext
+music-tiger/
+├── client/                     # ESP8266 아두이노 코드 (MusicTigerClient.ino)
+│   └── MusicTigerClient.ino
+│
+├── server/                     # Spring Boot 기반 REST API 서버
+│   ├── build.gradle            # Gradle 빌드 설정 파일
+│   ├── settings.gradle
+│   └── src/
+│       └── main/
+│           ├── java/
+│           │   └── com/
+│           │       └── musictiger/
+│           │           └── MusictigerApplication.java   # 서버 메인 실행 클래스
+│           └── resources/
+│               └── static/
+│                   └── song1.mp3                        # 재생할 mp3 파일
+
 
