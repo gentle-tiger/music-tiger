@@ -18,7 +18,7 @@
 
 | 파트 | 사용 기술 |
 |------|------------|
-| 하드웨어 | NodeMCU ESP8266, PAM8403 앰프, 1W 스피커 |
+| 하드웨어 | NodeMCU ESP8266, PAM8403 앰프, VS1053 , 1W 스피커 |
 | 펌웨어 | Arduino C++ |
 | 서버 | Java Spring Boot (REST API) |
 | 통신 | HTTP (Wi-Fi) |
